@@ -1,17 +1,17 @@
-# 🛡️ NPC Personality Engine (with Memory)
+# NPC Personality Engine (with Memory)
 
 A Python-based AI NPC ("Garrett the Grumpy Blacksmith") that **remembers your past interactions** using a Vector Database.
 
-## 🚀 How it Works
+## How it Works
 * **Brain:** Local LLM via **Ollama** (Llama 3 or Mistral).
 * **Memory:** Vector storage via **ChromaDB**.
 * **Logic:** Retrieves past chat history to influence the NPC's current attitude (e.g., if you helped him yesterday, he trusts you today).
 
-## 🛠️ Prerequisites
+## Prerequisites
 1.  [Python 3.10+](https://www.python.org/downloads/)
 2.  [Ollama](https://ollama.com/) installed and running.
 
-## 📥 Installation
+## Installation
 
 1.  **Clone the repo:**
     ```bash
@@ -31,7 +31,7 @@ A Python-based AI NPC ("Garrett the Grumpy Blacksmith") that **remembers your pa
     ```
     *(Note: If you use a different model, update `MODEL_NAME` in `npc_engine.py`)*.
 
-## 🎮 Usage
+## Usage
 
 1.  Make sure Ollama is ready (it runs in the background usually).
 2.  Run the script:
@@ -40,7 +40,7 @@ A Python-based AI NPC ("Garrett the Grumpy Blacksmith") that **remembers your pa
     ```
 3.  Chat with Garrett! Type `exit` to save and quit.
 
-## 🧠 Memory Persistence
+## Memory Persistence
 The project creates a local folder `npc_memory_db/` to store memories.
 * **To reset memory:** Delete the `npc_memory_db/` folder.
 * **Git:** This folder is ignored by `.gitignore` to keep your repo clean.
