@@ -1,0 +1,6 @@
+# Ignore the Vector Database folder
+npc_memory_db/
+__pycache__/
+
+# Ignore Environment variables (safety habit)
+.env
