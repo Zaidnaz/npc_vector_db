@@ -15,7 +15,7 @@ A Python-based AI NPC ("Garrett the Grumpy Blacksmith") that **remembers your pa
 
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/yourusername/npc-memory-engine.git](https://github.com/yourusername/npc-memory-engine.git)
+    git clone [[https://github.com/yourusername/npc-memory-engine.git](https://github.com/yourusername/npc-memory-engine.git)](https://github.com/Zaidnaz/npc_vector_db)
     cd npc-memory-engine
     ```
 
